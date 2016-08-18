@@ -176,6 +176,22 @@ td,
 th {
   padding: 0;
 }
+
+/* Author CSS */
+.product_table tbody tr td img {
+  width: 50px;  
+}
+
+.product_table tbody tr:hover {
+  background: #eee;
+  cursor: pointer;
+}
+
+.product-add-img img {
+  width: 100%;
+  max-width: 300px; 
+}
+
 /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,

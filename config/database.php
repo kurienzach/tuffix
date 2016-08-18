@@ -55,9 +55,9 @@ return [
 		'mysql' => [
 			'driver'    => 'mysql',
 			'host'      => env('DB_HOST', 'localhost:3306'),
-			'database'  => env('DB_DATABASE', 'tuffix'),
+            'database'  => env('DB_DATABASE', 'tuffix'),
 			'username'  => env('DB_USERNAME', 'tuffix'),
-			'password'  => env('DB_PASSWORD', 'admin'),
+			'password'  => env('DB_PASSWORD', 'tuffix123'),
 			'charset'   => 'utf8',
 			'collation' => 'utf8_unicode_ci',
 			'prefix'    => '',
